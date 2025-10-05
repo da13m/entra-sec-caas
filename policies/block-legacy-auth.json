@@ -1,0 +1,21 @@
+{
+  "displayName": "Block Legacy Authentication",
+  "state": "disabled",
+  "conditions": {
+    "clientAppTypes": [
+      "exchangeActiveSync",
+      "other"
+    ],
+    "users": {
+      "includeUsers": [
+        "All"
+      ]
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "block"
+    ]
+  }
+}
